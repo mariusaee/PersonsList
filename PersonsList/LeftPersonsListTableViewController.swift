@@ -16,26 +16,19 @@ class LeftPersonsListTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-//    override func numberOfSections(in tableView: UITableView) -> Int {
-//        return 2
-//    }
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         persons.count
     }
-    
-//    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-//
-//    }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "personNameCell", for: indexPath)
         
         let person = persons[indexPath.row]
+        
         var content = cell.defaultContentConfiguration()
         content.text = person.title
-        
         cell.contentConfiguration = content
+        
         return cell
     }
     
