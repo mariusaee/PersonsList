@@ -49,11 +49,11 @@
             </objects>
             <point key="canvasLocation" x="699" y="-162"/>
         </scene>
-        <!--Item-->
+        <!--Left Contact List-->
         <scene sceneID="XWg-6t-FWg">
             <objects>
                 <navigationController id="vf3-Xn-bWe" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="iWI-sn-kUT"/>
+                    <tabBarItem key="tabBarItem" title="Left Contact List" image="person" catalog="system" id="iWI-sn-kUT"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="BaE-ag-AYQ">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -110,23 +110,6 @@
                                     </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="personEmailCell" textLabel="ptg-ph-B7Z" style="IBUITableViewCellStyleDefault" id="pfD-gq-qeZ">
-                                <rect key="frame" x="0.0" y="71.5" width="414" height="43.5"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pfD-gq-qeZ" id="j5N-zm-5C9">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ptg-ph-B7Z">
-                                            <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                            </tableViewCell>
                         </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="nTV-R0-wy5" id="zsB-Ar-3r5"/>
@@ -139,11 +122,11 @@
             </objects>
             <point key="canvasLocation" x="699" y="491"/>
         </scene>
-        <!--Item-->
+        <!--Right Contact List-->
         <scene sceneID="u52-tu-Tli">
             <objects>
                 <navigationController id="IMD-r9-LRb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="UJ0-Ij-yWv"/>
+                    <tabBarItem key="tabBarItem" title="Right Contact List" image="person" catalog="system" id="UJ0-Ij-yWv"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="GKJ-7F-2LF">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -186,10 +169,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Swn-L0-BkE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1452" y="-162"/>
+            <point key="canvasLocation" x="1426" y="-162"/>
         </scene>
     </scenes>
     <resources>
+        <image name="person" catalog="system" width="128" height="117"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -27,15 +27,20 @@ class RightPersonsListTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "personPhoneCell", for: indexPath)
-
         let person = persons[indexPath.section]
         
         var content = cell.defaultContentConfiguration()
-                
-        indexPath.row == 0 ? (content.text = person.email) : (content.text = person.phone)
+        
+        switch indexPath.row {
+        case 0:
+            content.text = person.phone
+            content.image = UIImage(systemName: "phone")
+        default:
+            content.text = person.email
+            content.image = UIImage(systemName: "envelope")
+        }
         
         cell.contentConfiguration = content
         return cell
     }
-    
 }
