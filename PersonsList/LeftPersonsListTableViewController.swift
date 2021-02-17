@@ -41,6 +41,10 @@ class LeftPersonsListTableViewController: UITableViewController {
     
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let personInfoVC = segue.destination as? PersonInfoViewController else { return }
+        guard let indexPath = tableView.indexPathForSelectedRow else { return }
+        let person = persons[indexPath.row]
+        personInfoVC.person = person
     }
     
 }

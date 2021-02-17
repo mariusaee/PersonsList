@@ -15,6 +15,7 @@
 		2986012525DD3E5300C769B2 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2986012425DD3E5300C769B2 /* Person.swift */; };
 		2986012825DD43EE00C769B2 /* LeftPersonsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2986012725DD43EE00C769B2 /* LeftPersonsListTableViewController.swift */; };
 		2986012C25DD447200C769B2 /* RightTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2986012B25DD447200C769B2 /* RightTableViewController.swift */; };
+		2986012F25DD59D800C769B2 /* PersonInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2986012E25DD59D800C769B2 /* PersonInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2986012425DD3E5300C769B2 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		2986012725DD43EE00C769B2 /* LeftPersonsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftPersonsListTableViewController.swift; sourceTree = "<group>"; };
 		2986012B25DD447200C769B2 /* RightTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightTableViewController.swift; sourceTree = "<group>"; };
+		2986012E25DD59D800C769B2 /* PersonInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				2986012725DD43EE00C769B2 /* LeftPersonsListTableViewController.swift */,
 				2986012B25DD447200C769B2 /* RightTableViewController.swift */,
 				2986011425DD3A8A00C769B2 /* Main.storyboard */,
+				2986012E25DD59D800C769B2 /* PersonInfoViewController.swift */,
 				2986012425DD3E5300C769B2 /* Person.swift */,
 				2986011725DD3A8C00C769B2 /* Assets.xcassets */,
 				2986011925DD3A8C00C769B2 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2986012525DD3E5300C769B2 /* Person.swift in Sources */,
+				2986012F25DD59D800C769B2 /* PersonInfoViewController.swift in Sources */,
 				2986010F25DD3A8A00C769B2 /* AppDelegate.swift in Sources */,
 				2986011125DD3A8A00C769B2 /* SceneDelegate.swift in Sources */,
 				2986012C25DD447200C769B2 /* RightTableViewController.swift in Sources */,

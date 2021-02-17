@@ -21,10 +21,10 @@ struct Person {
 
 extension Person {
     static func getPerson() -> [Person] {
-        [Person(name: "Luther", surname: "One", email: "One@umbrella.com", phone: "111"),
-         Person(name: "Diego", surname: "Two", email: "Two@umbrella.com", phone: "222"),
-         Person(name: "Vanya", surname: "Seven", email: "Seven@umbrella.com", phone: "777"),
-         Person(name: "Klaus", surname: "Four", email: "Four@umbrella.com", phone: "444")
+        [Person(name: "Luther", surname: "One", email: "one@umbrella.com", phone: "111"),
+         Person(name: "Diego", surname: "Two", email: "two@umbrella.com", phone: "222"),
+         Person(name: "Vanya", surname: "Seven", email: "seven@umbrella.com", phone: "777"),
+         Person(name: "Klaus", surname: "Four", email: "four@umbrella.com", phone: "444")
         ]
     }
 }
